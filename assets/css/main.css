@@ -18,3 +18,8 @@ body {
 .font-body {
 	font-family: 'Mukta Vaani',  sans-serif;
 }
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
