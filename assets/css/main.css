@@ -1,38 +1,27 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosansgujarati.css);
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+@import url('//fonts.googleapis.com/earlyaccess/notosansgujarati.css');
+
+/*
+@import url('//fonts.googleapis.com/earlyaccess/notosansgujarati.css');
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+*/
 
 html {
 	font-size: 62.5%;
 }
 
 body {
-	font-family: 'Hind Vadodara', 'Mukta Vaani', 'Rasa', 'Noto Sans Gujarati', sans-serif;
+	font-family: 'Noto Sans Gujarati', sans-serif;
 	font-size: 1.6rem;
 }
 
-.font-heading {
-	font-family: 'Hind Vadodara',  sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Hind Vadodara', 'Noto Sans Gujarati', sans-serif;
 }
-
-.font-body {
-	font-family: 'Mukta Vaani',  sans-serif;
-}
-
-.font-body-hind {
-	font-family: 'Hind Vadodara',  sans-serif;
-}
-
-.font-body-mukta {
-	font-family: 'Mukta Vaani',  sans-serif;
-}
-
-.font-body-rasa {
-	font-family: 'Rasa',  sans-serif;
-}
-
-.font-body-noto-guj {
-	font-family: 'Noto Sans Gujarati',  sans-serif;
-}
-
