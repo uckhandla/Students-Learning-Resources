@@ -1,5 +1,5 @@
-# Students' Learning Resources
-Students' Learning Resources
+# વિદ્યાર્થીઓના અધ્યયન સંસાધનો / Students' Learning Resources
+
 
 
 ### For users
