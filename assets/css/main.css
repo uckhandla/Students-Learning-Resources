@@ -1,0 +1,10 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansgujarati.css);
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Noto Sans Gujarati', sans-serif;
+	font-size: 1.6rem;
+}
