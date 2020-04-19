@@ -41,10 +41,84 @@ footer {
 }
 
 
+.menu {
+    display: block;
+    position: relative;
+}
+
+
+.navigation {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    border-right: 1px solid #ccc;
+}
+
+.navigation li:last-child {
+    border-right: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    padding: 0.1rem 1rem;
+}
+
+.navigation li a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+
+
+
+
+
+
+.content-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .disclaimer {
     border: 1px solid #eee;
     padding: 2.0rem;
     border-radius: 0.4rem;
+    background-color: #FDEDEC;
 
 }
 
