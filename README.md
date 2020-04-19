@@ -1,4 +1,5 @@
-# વિદ્યાર્થીઓના અધ્યયન સંસાધનો / Students' Learning Resources
+# વિદ્યાર્થીઓના અધ્યયન સંસાધનો
+## Students' Learning Resources
 
 ### Learn at Home 
 
