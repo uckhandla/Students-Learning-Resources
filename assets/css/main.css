@@ -15,11 +15,24 @@ body {
 .font-heading {
 	font-family: 'Hind Vadodara',  sans-serif;
 }
+
 .font-body {
 	font-family: 'Mukta Vaani',  sans-serif;
 }
 
-.container {
-	max-width: 960px;
-	margin: 0 auto;
+.font-body-hind {
+	font-family: 'Hind Vadodara',  sans-serif;
 }
+
+.font-body-mukta {
+	font-family: 'Mukta Vaani',  sans-serif;
+}
+
+.font-body-rasa {
+	font-family: 'Rasa',  sans-serif;
+}
+
+.font-body-noto-guj {
+	font-family: 'Noto Sans Gujarati',  sans-serif;
+}
+
