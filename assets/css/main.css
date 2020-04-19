@@ -1,20 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
 @import url('//fonts.googleapis.com/earlyaccess/notosansgujarati.css');
-
-/*
-@import url('//fonts.googleapis.com/earlyaccess/notosansgujarati.css');
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
-*/
-
-html {
-	font-size: 62.5%;
-}
 
 body {
-	font-family: 'Noto Sans Gujarati', sans-serif;
-	font-size: 1.6rem;
+    font-family: 'Noto Sans Gujarati', 'Hind Vadodara', sans-serif;
+    font-size: 1.6rem;
 }
 
 h1,
@@ -23,5 +12,47 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Hind Vadodara', 'Noto Sans Gujarati', sans-serif;
+    font-family: 'Hind Vadodara', 'Noto Sans Gujarati', sans-serif;
+}
+
+
+
+/*
+ * Layout
+ */
+
+header {
+    background-color: #f2f2f2;
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+header span.en {
+    display: block;
+    font-size: 2.0rem;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
+    margin-top: 2.0rem;
+}
+
+
+.disclaimer {
+    border: 1px solid #eee;
+    padding: 2.0rem;
+    border-radius: 0.4rem;
+
+}
+
+.disclaimer ul {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+.disclaimer ul li:last-child {
+    margin-bottom: 0;
 }
