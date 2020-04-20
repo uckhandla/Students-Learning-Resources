@@ -1,0 +1,16 @@
+{
+	"collector": {
+		"name": "Ujamshi Khandla",
+		"designation": "teacher"
+	},
+	
+	"items":[
+		{
+			"name":"પ્રસ્તાવના",
+			"description": "",
+			"link": "",
+			"type": "url"
+		}
+		
+	]	
+}
