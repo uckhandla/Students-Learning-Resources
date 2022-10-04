@@ -1,18 +1,20 @@
-const GIST_ID = "e51da4a2753940578e0bb21412bc1895";
+const GIST_ID_1 = "e51da4a2753940578e0bb21412bc1895";
 const GIST_FILENAME_1 = "db.json";
+
+const GIST_ID_2 = "abaf39620b6f71155939298a09f61d38";
 const GIST_FILENAME_2 = "db2.json";
 
 /* 
  * Reads the JSON file inside of the gist
  */
 async function getDataOne() {
-  const req = await fetch(`https://api.github.com/gists/${GIST_ID}`);
+  const req = await fetch(`https://api.github.com/gists/${GIST_ID_1}`);
   const gist = await req.json();
   return JSON.parse(gist.files[GIST_FILENAME_1].content);
 }
 
 async function getDataTwo() {
-  const req = await fetch(`https://api.github.com/gists/${GIST_ID}`);
+  const req = await fetch(`https://api.github.com/gists/${GIST_ID_2}`);
   const gist = await req.json();
   return JSON.parse(gist.files[GIST_FILENAME_2].content);
 }
