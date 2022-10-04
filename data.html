@@ -20,10 +20,28 @@
                     resolve("Yeah !");
                 },10000);
             });
+            
             var myPromise = getData(originalPromise);
+            
             myPromise.then(function(data){
-                console.log(data); 
-            });           
+                console.log("getData=", data); // "Yeah !"
+                /*
+                console.log("Final fulfilled:", myPromise.isFulfilled()); //true
+                console.log("Final rejected:", myPromise.isRejected()); //false
+                console.log("Final pending:", myPromise.isPending()); //false
+                */
+            });
+            
+            /*
+            jdata = getData();
+            console.log("jsata: ", jdata);          
+            
+             Xdata = getDataX();
+            console.log("Xdata: ", Xdata);          
+            
+            Ydata = getDataY();
+            console.log("Ydata: ", Ydata);          
+            */       
         }
     </script>
 </body>
