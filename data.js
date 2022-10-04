@@ -5,15 +5,15 @@ const GIST_FILENAME_2 = "db.json";
 /* 
  * Reads the JSON file inside of the gist
  */
-async function getData() {
+async function getDataOne() {
   const req = await fetch(`https://api.github.com/gists/${GIST_ID}`);
   const gist = await req.json();
   return JSON.parse(gist.files[GIST_FILENAME_1].content);
 }
 
-async function getData() {
+async function getDataTwo() {
   const req = await fetch(`https://api.github.com/gists/${GIST_ID}`);
   const gist = await req.json();
-  return JSON.parse(gist.files[GIST_FILENAME].content);
+  return JSON.parse(gist.files[GIST_FILENAME_2].content);
 }
 
