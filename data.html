@@ -14,18 +14,14 @@
     <script>
         window.onload = function exampleFunction() {
             // Function to be executed
-      
-            jdata = getData();
-            //console.log("jdata: ", jdata);          
-            //console.log(jdata.Promise);
-            
-            jdata.then(
-              function(value) {
-                console.log("value: ", value);
+
+            jdata = getData();           
+            jdata.then ( function(json) {
+                console.log("json: ", json);
+                console.log("json.name: ", json.name);
               }
             );
-            
-    
+                
         }
     </script>
 </body>
