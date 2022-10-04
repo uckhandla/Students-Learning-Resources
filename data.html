@@ -15,6 +15,12 @@
         window.onload = function exampleFunction() {
             // Function to be executed
             
+            getData.then(data => ({
+                data: data,
+                status: response.status,
+                console.log(data);
+            })
+        
             jdata = getData();
             console.log(jdata);
           
