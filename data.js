@@ -19,7 +19,7 @@ async function getDataX() {
 }
 
 async function getDataY() {
-  fetch('myResource.json').then(function(response) {
+  fetch(`https://api.github.com/gists/${GIST_ID}`).then(function(response) {
     return response.json();
   }).then(function(parsedJson) {
     return parsedJson;
