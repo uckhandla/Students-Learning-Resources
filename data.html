@@ -19,6 +19,8 @@
             jdata.then ( function(json) {
                 console.log("json: ", json);
                 console.log("json.name: ", json.name);
+                var el = document.getElimentByID('viewdata');
+                    el.innerText = json.name;
               }
             );
                 
