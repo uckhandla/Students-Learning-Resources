@@ -15,11 +15,16 @@
         window.onload = function exampleFunction() {
             // Function to be executed
             
-            getData().then(function(result) {
+           getData().then(function(result) {
                 // use result, which is whatever makeAsyncCalls's promise resolves to
                 console.log(result);
-            });            
-            
+            });
+
+            jdata = getData();
+            console.log(jdata);
+            console.log(jdata.Promise);
+            console.log(jdata.Promise.PromiseResult);
+            console.log(jdata.PromiseResult);
         }
     </script>
 </body>
