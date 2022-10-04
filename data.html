@@ -16,11 +16,11 @@
             // Function to be executed
 
             jdata = getData();           
-            jdata.then ( function(json) {
-                console.log("json: ", json);
-                console.log("json.name: ", json.name);
-                var el = document.getElimentByID('viewdata');
-                    el.innerText = json.name;
+            jdata.then ( function(data) {
+                console.log("data: ", data);
+                console.log("data.name: ", data.name);
+                var el = document.getElementById('viewdata');
+                    el.innerText = data.name;
               }
             );
                 
