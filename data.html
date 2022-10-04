@@ -14,7 +14,7 @@
     <script>
         window.onload = function exampleFunction() {
             // Function to be executed
-            var promise = getData().resolve();
+            var promise = getData().Promise.resolve();
             promise.then(function(val) {
                 console.log(val);
             });
