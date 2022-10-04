@@ -14,11 +14,12 @@
     <script>
         window.onload = function exampleFunction() {
             // Function to be executed
-            jdata = getData()resolve();
-            jdata.then(function(val) {
+            var promise = getData().resolve();
+            promise.then(function(val) {
                 console.log(val);
             });
             
+            jdata = getData();
             console.log(jdata);          
         }
     </script>
