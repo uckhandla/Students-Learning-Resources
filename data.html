@@ -14,12 +14,22 @@
     <script>
         window.onload = function exampleFunction() {
             // Function to be executed
-            /*
-            var promise = getData().Promise.resolve();
-            promise.then(function(val) {
-                console.log(val);
+           
+            var originalPromise = new Promise(function(resolve,reject){
+                setTimeout(function(){
+                    resolve("Yeah !");
+                },10000);
             });
-            */
+            
+            var myPromise = getData(originalPromise);
+            
+            myPromise.then(function(data){
+                console.log(data); // "Yeah !"
+                console.log("Final fulfilled:", myPromise.isFulfilled()); //true
+                console.log("Final rejected:", myPromise.isRejected()); //false
+                console.log("Final pending:", myPromise.isPending()); //false
+            });
+            
             
             jdata = getData();
             console.log(jdata);          
