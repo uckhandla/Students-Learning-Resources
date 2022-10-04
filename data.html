@@ -19,7 +19,9 @@
         window.onload = function exampleFunction() {
             // Function to be executed
 
-            jsonData = getDataOne();           
+            // jsonData = getDataOne();      
+            jsonData = getDataTwo();   
+            
             jsonData.then ( function(data) {
                 console.log("data: ", data);
                 console.log("data.name: ", data.name);
