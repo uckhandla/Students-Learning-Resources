@@ -7,7 +7,11 @@
 </head>
 <body>
   <h2>Data</h2>
+  <p>Data are below:</p>
   <div id="viewdata">
+      Your name is <span id="name"></span>. 
+      You are <span id="age"></span> years old. 
+      You are studing in standard <span id="std"></span>.
   </div>
 
     <script src="data.js"></script>
@@ -19,10 +23,16 @@
             jdata.then ( function(data) {
                 console.log("data: ", data);
                 console.log("data.name: ", data.name);
-                var el = document.getElementById('viewdata');
-                    el.innerText = data.name;
-              }
-            );
+                
+                var elName = document.getElementById('name');
+                elName.innerText = data.name;
+                
+                var elAge = document.getElementById('name');
+                elAge.innerText = data.name;
+                
+                var elStd = document.getElementById('name');
+                elStd.innerText = data.name;
+            });
                 
         }
     </script>
