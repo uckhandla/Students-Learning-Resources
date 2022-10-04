@@ -1,6 +1,13 @@
-onst TOKEN = "YOUR_PERSONAL_ACCESS_TOKEN";
+/*
+const TOKEN = "YOUR_PERSONAL_ACCESS_TOKEN";
 const GIST_ID = "YOUR_GIST_ID";
 const GIST_FILENAME = "db.json";
+*/
+
+const TOKEN = "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";
+const GIST_ID = "e51da4a2753940578e0bb21412bc1895";
+const GIST_FILENAME = "db.json";
+
 
 /* 
  * Reads the JSON file inside of the gist
