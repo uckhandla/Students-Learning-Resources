@@ -1,6 +1,6 @@
 const GIST_ID = "e51da4a2753940578e0bb21412bc1895";
-const GIST_FILENAME_1 = "db2.json";
-const GIST_FILENAME_2 = "db.json";
+const GIST_FILENAME_1 = "db.json";
+const GIST_FILENAME_2 = "db2.json";
 
 /* 
  * Reads the JSON file inside of the gist
