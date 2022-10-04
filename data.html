@@ -20,29 +20,12 @@
                     resolve("Yeah !");
                 },10000);
             });
-            
             var myPromise = getData(originalPromise);
-            
             myPromise.then(function(data){
-                console.log(data); // "Yeah !"
-                /*
-                console.log("Final fulfilled:", myPromise.isFulfilled()); //true
-                console.log("Final rejected:", myPromise.isRejected()); //false
-                console.log("Final pending:", myPromise.isPending()); //false
-                */
-            });
-            
-            /*
-            jdata = getData();
-            console.log(jdata);          
-            
-             Xdata = getDataX();
-            console.log(Xdata);   
-            
-            Ydata = getDataY();
-            console.log(Ydata);  
-            */
-            
+                console.log(data); 
+                console.log(data.name); 
+                console.log(data.age); 
+            });           
         }
     </script>
 </body>
