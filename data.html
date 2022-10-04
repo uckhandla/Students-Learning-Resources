@@ -17,6 +17,16 @@
       
             jdata = getData();
             console.log("jdata: ", jdata);          
+            console.log(jdata.Promise);
+            console.log(jdata.Promise());
+            console.log(jdata.Promise.PromiseResult);
+            
+            jdata.then(
+              function(value) {
+                console.log("value: ", value);
+              }
+            );
+            
     
         }
     </script>
