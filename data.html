@@ -19,8 +19,8 @@
         window.onload = function exampleFunction() {
             // Function to be executed
 
-            jdata = getData();           
-            jdata.then ( function(data) {
+            jsonData = getDataTwo();           
+            jsonData.then ( function(data) {
                 console.log("data: ", data);
                 console.log("data.name: ", data.name);
                 
@@ -33,6 +33,8 @@
                 var elStd = document.getElementById('std');
                 elStd.innerText = data.std;
             });
+            
+
                 
         }
     </script>
