@@ -18,13 +18,10 @@
             getData().then(function(result) {
                 // use result, which is whatever makeAsyncCalls's promise resolves to
                 console.log(result);
-            });
+                console.log(result.name);
+                console.log(result.age);
+            });            
             
-            jdata = getData();
-            console.log(jdata);
-            console.log(jdata.Promise);
-             console.log(jdata.Promise.PromiseResult);
-            console.log(jdata.PromiseResult);
         }
     </script>
 </body>
