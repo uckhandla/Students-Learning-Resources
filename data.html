@@ -14,7 +14,11 @@
     <script>
         window.onload = function exampleFunction() {
             // Function to be executed
-            jdata = getData();
+            jdata = getData()resolve();
+            jdata.then(function(val) {
+                console.log(val);
+            });
+            
             console.log(jdata);          
         }
     </script>
