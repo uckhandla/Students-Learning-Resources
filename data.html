@@ -19,6 +19,11 @@
               console.log(value);
             });
         
+            getData()
+              .then((data) => {
+                console.log(data[0].name);
+              });
+            
         
             jdata = getData();
             console.log(jdata);
